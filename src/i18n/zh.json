@@ -1,0 +1,505 @@
+{
+  "htmlLang": "zh-CN",
+  "title": "单词屋 · 3D 英语单词寻宝游戏 - GachaLex",
+  "desc": "和你的宠物一起走进 3D 单词屋：前院、客厅、厨房、卫生间、卧室、书房、儿童房和后院农场。点物品学单词、听发音，玩寻宝和听音选图，收集星星和房间贴纸。",
+  "text": {
+    "house.scene.home": "家",
+    "house.scene.school": "学校",
+    "nav.backToHome": "返回首页",
+    "lang.zh": "中文",
+    "lang.en": "English",
+    "lang.ja": "日本語",
+    "lang.ko": "한국어",
+    "lang.th": "ไทย",
+    "lang.hant": "繁体中文"
+  },
+  "i18n": {
+    "house.eyebrow": "学英语单词",
+    "house.words": "单词表",
+    "house.stickers": "贴纸册",
+    "house.labels": "标签",
+    "house.goInside": "进屋",
+    "house.backOutside": "回到屋外",
+    "house.hintOut": "嗨，我是{name}！点那扇大门，我们进屋找单词吧 🚪",
+    "house.hintBack": "欢迎来到农场！点点小动物，听听它们的英文名 🐄",
+    "house.hintInside": "点一点屋里的东西，就能学会它的英文！",
+    "house.hintSub": "拖动屏幕可以环顾四周 · 底部按钮可以换房间",
+    "house.hintWalking": "走呀走…",
+    "house.zone.out": "Front yard · 前院",
+    "house.zone.living": "Living room · 客厅",
+    "house.zone.kitchen": "Kitchen · 厨房",
+    "house.zone.hall": "Hall · 玄关楼梯",
+    "house.zone.bath": "Bathroom · 卫生间",
+    "house.zone.landing": "Upstairs · 二楼走廊",
+    "house.zone.bed": "Bedroom · 卧室",
+    "house.zone.study": "Study · 书房",
+    "house.zone.kids": "Kids room · 儿童房",
+    "house.zone.back": "Farm · 后院农场",
+    "house.zone.door": "Door · 大门",
+    "house.hearSentence": "听句子",
+    "house.nextWord": "下一个",
+    "house.noSpeech": "这个浏览器不能朗读。",
+    "house.allWords": "所有单词",
+    "house.voiceLabel": "声音（如果听起来沙哑，请换一个，带 Natural / Google 的通常更清晰）",
+    "house.test": "试听",
+    "house.startOver": "重新开始",
+    "house.resetConfirm": "再点一次确认：清空进度和星星",
+    "house.fallback": "这个浏览器无法显示 3D，仍可用单词表和听音选图学习。",
+    "house.fallbackHint": "点「听音选图」或「单词表」来学习吧！",
+    "house.soundTip": "没有声音？请检查手机侧边的静音开关和媒体音量，再点一次喇叭按钮；安卓手机还需要系统语音引擎（如 Google 语音服务）。",
+    "house.ok": "太好了！",
+    "house.streak": "连续学习 {n} 天",
+    "house.pet.defaultName": "小宠物",
+    "house.pip.tapDoor": "先点那扇大门，我们进屋吧！🚪",
+    "house.pip.left": "这个房间还有 {n} 个单词没找到，加油！",
+    "house.pip.tryHunt": "这里全找到啦！点「寻宝游戏」考考自己吧 🎯",
+    "house.pip.roomLeft": "这里有 {n} 个新单词等你发现！",
+    "house.pip.roomDoneSub": "这个房间你已经全部找到啦，玩寻宝游戏挑战一下？",
+    "house.pip.newWord": "找到一个新单词，+1 ⭐",
+    "house.sticker.title": "我的贴纸册",
+    "house.sticker.hint": "已集齐 {n} / {t} 张 · 一共 {s} ⭐。把一个房间的单词全部找到，就能得到这个房间的贴纸！",
+    "house.sticker.got": "获得新贴纸：{s}！",
+    "house.sticker.gotSub": "这个房间的单词全部找到了，奖励 5 ⭐",
+    "house.hunt.btn": "寻宝游戏",
+    "house.hunt.ear": "只听声音",
+    "house.hunt.skip": "跳过",
+    "house.hunt.find": "听一听，找到它！",
+    "house.hunt.findSub": "点 3D 里的物品或 ❓ 标签",
+    "house.hunt.none": "这里能找的东西太少啦，去别的房间试试吧！",
+    "house.hunt.wrong": "这是 {w}，不是它哦～再找找！",
+    "house.hunt.wrong2": "不是这个哦，再找找！",
+    "house.hunt.hint": "小提示：看看那个一闪一闪的 ❓",
+    "house.hunt.stopped": "下次再来寻宝吧！",
+    "house.hunt.perfect": "全部一次找对！你是寻宝大王！",
+    "house.hunt.result": "找到了 {n} / {t} 个！",
+    "house.hunt.earned": "一次就找对 {f} 个 · 这一轮获得 {s} ⭐",
+    "house.hunt.again": "再玩一次",
+    "house.hunt.explore": "继续探索",
+    "house.quiz.btn": "听音选图",
+    "house.quiz.title": "听音选图",
+    "house.quiz.ask": "听一听，是哪一个？",
+    "house.quiz.result": "答对 {n} / {t} 题，获得 {s} ⭐"
+  },
+  "words": {
+    "house": [
+      "房子",
+      "我们住在一座大房子里。",
+      "house 是房子这座建筑；home 更像“家”。"
+    ],
+    "door": [
+      "门",
+      "请把门关上。",
+      "front door 前门；knock on the door 敲门。"
+    ],
+    "tree": [
+      "树",
+      "一只鸟停在树上。",
+      "很多树在一起就是 forest（森林）。"
+    ],
+    "mailbox": [
+      "邮箱；信箱",
+      "信在信箱里。",
+      "mail 邮件 + box 盒子。英式常说 postbox。"
+    ],
+    "sofa": [
+      "沙发",
+      "我的猫在沙发上睡觉。",
+      "发音很像中文“沙发”。也可以说 couch。"
+    ],
+    "cushion": [
+      "靠垫",
+      "她在背后放了一个靠垫。",
+      "cushion 是靠垫；pillow 是睡觉用的枕头。"
+    ],
+    "coffeetable": [
+      "茶几",
+      "杯子在茶几上。",
+      "放杯子、书和遥控器的矮桌子。"
+    ],
+    "rug": [
+      "小地毯",
+      "狗躺在地毯上。",
+      "rug 是小块地毯；carpet 是铺满整个地面的。"
+    ],
+    "tv": [
+      "电视",
+      "爸爸在看电视。",
+      "TV 是 television 的缩写。"
+    ],
+    "remote": [
+      "遥控器",
+      "遥控器在哪里？",
+      "remote 远的 + control 控制 = 远距离控制。"
+    ],
+    "floorlamp": [
+      "落地灯",
+      "请打开落地灯。",
+      "floor 地板 + lamp 灯 = 落地灯。"
+    ],
+    "bookshelf": [
+      "书架",
+      "书架上摆满了故事书。",
+      "book 书 + shelf 架子。复数是 bookshelves。"
+    ],
+    "book": [
+      "书",
+      "我每天晚上读一本书。",
+      "read a book 读书；open the book 打开书。"
+    ],
+    "window": [
+      "窗户",
+      "请打开窗户，好热。",
+      "window 来自 wind（风）+ eye（眼睛）：风的眼睛。"
+    ],
+    "curtain": [
+      "窗帘",
+      "她晚上拉上了窗帘。",
+      "常用复数 curtains，因为通常是一对。"
+    ],
+    "clock": [
+      "钟；时钟",
+      "钟显示七点整。",
+      "o’clock 就是 of the clock（钟点）。"
+    ],
+    "frame": [
+      "相框；画框",
+      "她把照片放进了相框。",
+      "picture 图画 + frame 框。"
+    ],
+    "plant": [
+      "植物；盆栽",
+      "每天给植物浇水。",
+      "plant 也可以做动词：种植。"
+    ],
+    "vase": [
+      "花瓶",
+      "她把几枝玫瑰插进花瓶里。",
+      "美式读 /veɪs/，英式常读 /vɑːz/。"
+    ],
+    "cup": [
+      "杯子",
+      "我想要一杯茶。",
+      "a cup of tea 一杯茶。"
+    ],
+    "aircon": [
+      "空调",
+      "开空调吧，好热。",
+      "常缩写成 AC 或 A/C。"
+    ],
+    "ceilinglight": [
+      "吸顶灯",
+      "吸顶灯很亮。",
+      "ceiling 天花板；floor 是地板，正好相反。"
+    ],
+    "pool": [
+      "游泳池",
+      "孩子们在游泳池里游泳。",
+      "swim 游泳 + ing；pool 就是水池。"
+    ],
+    "car": [
+      "汽车",
+      "爸爸开车去上班。",
+      "drive a car 开车；by car 坐汽车。"
+    ],
+    "bicycle": [
+      "自行车",
+      "我骑自行车上学。",
+      "常简称 bike。bi- 表示“二”，cycle 是“轮”。"
+    ],
+    "fence": [
+      "栅栏；篱笆",
+      "狗跳过了栅栏。",
+      "fence 围住花园，wall 是墙。"
+    ],
+    "flower": [
+      "花",
+      "她摘了一朵红花。",
+      "flower 和 flour（面粉）读音一样！"
+    ],
+    "ball": [
+      "球",
+      "他把球踢进了泳池。",
+      "kick a ball 踢球；throw a ball 扔球。"
+    ],
+    "bed": [
+      "床",
+      "我九点上床睡觉。",
+      "go to bed 上床睡觉。"
+    ],
+    "pillow": [
+      "枕头",
+      "她把头靠在枕头上。",
+      "睡觉用 pillow，沙发用 cushion。"
+    ],
+    "blanket": [
+      "毯子",
+      "宝宝盖着暖和的毯子。",
+      "blanket 毯子；quilt 被子。"
+    ],
+    "wardrobe": [
+      "衣柜",
+      "我的衣服在衣柜里。",
+      "ward 保管 + robe 长袍 = 放衣服的柜子。"
+    ],
+    "nightstand": [
+      "床头柜",
+      "闹钟在床头柜上。",
+      "night 夜晚 + stand 放东西的架子。英式 bedside table。"
+    ],
+    "alarmclock": [
+      "闹钟",
+      "我的闹钟七点响。",
+      "alarm 警报 + clock 钟。"
+    ],
+    "teddy": [
+      "泰迪熊",
+      "她抱着泰迪熊睡觉。",
+      "名字来自美国总统 Teddy Roosevelt。"
+    ],
+    "mirror": [
+      "镜子",
+      "她照了照镜子。",
+      "look in the mirror 照镜子。"
+    ],
+    "slippers": [
+      "拖鞋",
+      "穿上你的拖鞋。",
+      "拖鞋是一双，所以用复数 slippers。"
+    ],
+    "desk": [
+      "书桌",
+      "他在书桌前做作业。",
+      "desk 书桌；table 一般的桌子。"
+    ],
+    "chair": [
+      "椅子",
+      "请坐在椅子上。",
+      "take a chair = 坐下。"
+    ],
+    "laptop": [
+      "笔记本电脑",
+      "她在笔记本电脑上工作。",
+      "lap 大腿 + top 上面：放在腿上用的电脑。"
+    ],
+    "desklamp": [
+      "台灯",
+      "打开台灯来读书。",
+      "desk 书桌 + lamp 灯。"
+    ],
+    "notebook": [
+      "笔记本",
+      "我把新单词写在笔记本里。",
+      "note 笔记 + book 本子。"
+    ],
+    "pencil": [
+      "铅笔",
+      "我可以借你的铅笔吗？",
+      "pencil 铅笔；pen 钢笔、圆珠笔。"
+    ],
+    "globe": [
+      "地球仪",
+      "在地球仪上找到中国。",
+      "globe 也指“地球”。"
+    ],
+    "backpack": [
+      "书包；背包",
+      "我的书包里装满了书。",
+      "back 背 + pack 包。也叫 schoolbag。"
+    ],
+    "fridge": [
+      "冰箱",
+      "牛奶在冰箱里。",
+      "口语常说 fridge。"
+    ],
+    "stove": [
+      "炉灶",
+      "妈妈在炉子上煮汤。",
+      "on the stove 在炉子上。"
+    ],
+    "sink": [
+      "水槽",
+      "在水槽里洗盘子。",
+      "sink 作动词是“下沉”。"
+    ],
+    "microwave": [
+      "微波炉",
+      "用微波炉热米饭。",
+      "micro 微小 + wave 波。"
+    ],
+    "pot": [
+      "锅",
+      "汤在锅里。",
+      "pot 深锅；pan 平底锅。"
+    ],
+    "kettle": [
+      "水壶",
+      "水壶里的水开了。",
+      "boil the kettle 烧水。"
+    ],
+    "diningtable": [
+      "餐桌",
+      "我们在餐桌上吃晚饭。",
+      "dine 用餐，dining 就是“吃饭的”。"
+    ],
+    "plate": [
+      "盘子",
+      "把蛋糕放在盘子上。",
+      "plate 盘子；bowl 碗。"
+    ],
+    "bowl": [
+      "碗",
+      "碗里有苹果。",
+      "a bowl of rice 一碗米饭。"
+    ],
+    "cabinet": [
+      "橱柜",
+      "杯子在橱柜里。",
+      "kitchen cabinet 厨房橱柜。"
+    ],
+    "barn": [
+      "谷仓；牲口棚",
+      "奶牛睡在牲口棚里。",
+      "农场里最大的红色房子。"
+    ],
+    "tractor": [
+      "拖拉机",
+      "农夫开着拖拉机。",
+      "tract 拉 → tractor 拉东西的机器。"
+    ],
+    "cow": [
+      "奶牛",
+      "奶牛“哞哞”叫。",
+      "cow 母牛，叫声 moo。"
+    ],
+    "pig": [
+      "猪",
+      "猪在泥里玩。",
+      "叫声 oink。"
+    ],
+    "chicken": [
+      "鸡",
+      "母鸡下了一个蛋。",
+      "小鸡 chick，叫声 cluck。"
+    ],
+    "sheep": [
+      "绵羊",
+      "绵羊在吃草。",
+      "单复数同形：one sheep, two sheep。"
+    ],
+    "scarecrow": [
+      "稻草人",
+      "稻草人站在田里。",
+      "scare 吓 + crow 乌鸦。"
+    ],
+    "hay": [
+      "干草",
+      "马吃干草。",
+      "hay 和 hey 读音一样。"
+    ],
+    "carrot": [
+      "胡萝卜",
+      "兔子喜欢胡萝卜。",
+      "长在土里，叶子露在外面。"
+    ],
+    "pond": [
+      "池塘",
+      "鸭子在池塘里游。",
+      "pond 小；lake 湖更大。"
+    ],
+    "windmill": [
+      "风车",
+      "风车在风中转动。",
+      "wind 风 + mill 磨坊。"
+    ],
+    "stairs": [
+      "楼梯",
+      "沿着楼梯走上去，就是卧室。",
+      "go upstairs 上楼；go downstairs 下楼。stairs 常用复数。"
+    ],
+    "handrail": [
+      "扶手",
+      "下楼时请扶好扶手。",
+      "hand 手 + rail 栏杆 = 扶手。"
+    ],
+    "shoecabinet": [
+      "鞋柜",
+      "把你的鞋放进鞋柜。",
+      "shoe 鞋 + cabinet 柜子。"
+    ],
+    "umbrella": [
+      "雨伞",
+      "带把伞吧，在下雨。",
+      "重音在第二个音节：um-BREL-la。"
+    ],
+    "coatrack": [
+      "衣帽架；挂衣钩",
+      "把外套挂在衣帽架上。",
+      "coat 外套 + rack 架子。"
+    ],
+    "toilet": [
+      "马桶",
+      "请冲一下马桶。",
+      "也可以指“洗手间”；美式也说 bathroom。"
+    ],
+    "bathtub": [
+      "浴缸",
+      "宝宝在浴缸里。",
+      "bath 洗澡 + tub 盆。"
+    ],
+    "shower": [
+      "淋浴",
+      "我每天早上洗淋浴。",
+      "take a shower 洗淋浴。shower 也指“阵雨”。"
+    ],
+    "washbasin": [
+      "洗手池；洗脸盆",
+      "在洗手池洗手。",
+      "wash 洗 + basin 盆。也叫 sink。"
+    ],
+    "towel": [
+      "毛巾；浴巾",
+      "用毛巾擦干手。",
+      "towel 和 tower（塔）读音相近。"
+    ],
+    "toothbrush": [
+      "牙刷",
+      "用牙刷刷牙。",
+      "tooth 牙 + brush 刷子。"
+    ],
+    "soap": [
+      "肥皂",
+      "用肥皂洗手。",
+      "soap 的 oa 读 /oʊ/，和 boat 一样。"
+    ],
+    "toybox": [
+      "玩具箱",
+      "把玩具放回玩具箱。",
+      "toy 玩具 + box 箱子。"
+    ],
+    "robot": [
+      "机器人",
+      "这个机器人会走会说话。",
+      "robot 重音在前：RO-bot。"
+    ],
+    "blocks": [
+      "积木",
+      "他用积木搭了一座塔。",
+      "build 建造 + ing；block 方块。"
+    ],
+    "toycar": [
+      "玩具车",
+      "这辆玩具车跑得很快。",
+      "toy 玩具 + car 汽车。"
+    ],
+    "doll": [
+      "洋娃娃",
+      "她在玩她的洋娃娃。",
+      "doll 和 dull（无聊）不同，注意 o 的音。"
+    ],
+    "crayon": [
+      "蜡笔",
+      "我用黄色蜡笔画太阳。",
+      "读音 CRAY-on，不是 cray-yon。"
+    ]
+  }
+}

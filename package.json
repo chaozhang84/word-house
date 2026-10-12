@@ -1,0 +1,27 @@
+{
+  "name": "word-house",
+  "version": "1.0.0",
+  "description": "A 3D house where kids tap everyday objects to learn English words. Three.js, no backend, ships as a single HTML file.",
+  "private": true,
+  "license": "MIT",
+  "homepage": "https://www.logicobs.xyz/gachaLex/en/house",
+  "keywords": ["threejs", "webgl", "english", "vocabulary", "kids", "education", "gulp", "i18n"],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "gulp serve",
+    "start": "gulp serve",
+    "build": "gulp build",
+    "build:dev": "gulp build:dev",
+    "preview": "gulp preview",
+    "clean": "gulp clean"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "gulp": "^5.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-terser": "^2.1.0"
+  }
+}
